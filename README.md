@@ -18,9 +18,8 @@ Using PRESS-B:
 5. The order of trials can be set via the "Selection_type" loop. By default it will run trials set in the CSV sequentially and once. To randomize the order, click "Selection_type" loop and select "random".
 You may have a trial block repeat by setting "Num. repeats" to a value greater than 1. 
 6. Run (green) or pilot (orange) the experiment by toggling it. The Python version should now work. If it does not run, there is likely an issue with the CSV file. Do not hesitate to contact me for help troubleshooting!
-JavaScript Only Steps:
-8. Upload all files via the gear button (i.e., settings) -> Online -> and adding documents and stimuli to the "Additional resources" list. If you change something in the CSV, you need to reupload it.
-9. If you change any code, make the code compile by clicking the yellow square labeled "JS". To test the experiment, set it to pilot mode and click the orange arrow above the "Browser" section of the screen. The project needs to be synced in order to run participants online. For debugging messages, right-click the screen while the experiment is running and click "Inspect". Reload the experiment with ctrl + r to refresh the resources.
+7. (JS only) Upload all files via the gear button (i.e., settings) -> Online -> and adding documents and stimuli to the "Additional resources" list. If you change something in the CSV, you need to reupload it.
+8. (JS only) If you change any code, make the code compile by clicking the yellow square labeled "JS". To test the experiment, set it to pilot mode and click the orange arrow above the "Browser" section of the screen. The project needs to be synced in order to run participants online. For debugging messages, right-click the screen while the experiment is running and click "Inspect". Reload the experiment with ctrl + r to refresh the resources.
 
 Known Issues:
 1. Not everything is in JS
