@@ -1,6 +1,6 @@
 PRESS-B: PsychoPy/JS Version
 
-written by Caleb Spink, B.S.
+Written by Caleb Spink, B.S.
 
 For questions or concerns, please send me an email at css0121@auburn.edu
 
