@@ -52,3 +52,7 @@ A: In order for the JS version to work, I had to circumvent some PsychoJS struct
 Q: Does the JS version work on every browser?
 
 A: To my knowledge, it works on everything execept for Edge; however, I have not tested Safari.
+
+Q: Are there any differences required in the CSV file between the Python and JS versions?
+
+A: Yes. You need the full file path for the Python version, but only stimuli/[stimulus] for the JS version. Additionally, Context_Position and Context_Size need to use a semi-colon for the JS version, but a comma for the Python version. 
