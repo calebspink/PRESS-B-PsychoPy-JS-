@@ -36,11 +36,19 @@ Future Plans:
 2. Add more features (suggestions welcome!)
 
 FAQ:
+
 Q: How much does it cost to use PRESS-B?
+
 A: For the Python version, it is free to use! However, running experiments online requires credits (about 40 cents per participant) or an institutional Pavlovia license.
 
 Q: What do you need in order to help solve errors?
+
 A: Any debugging messages and a copy of the CSV file. Most of the time, it is an issue with the CSV file.
 
 Q: Why is there an error message when I load PRESS-B?
+
 A: In order for the JS version to work, I had to circumvent some PsychoJS structures. These error messages do not prevent reliable data collection.
+
+Q: Does the JS version work on every browser?
+
+A: To my knowledge, it works on everything execept for Edge; however, I have not tested Safari.
