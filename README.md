@@ -22,7 +22,8 @@ You may have a trial block repeat by setting "Num. repeats" to a value greater t
 6. Run (green) or pilot (orange) the experiment by toggling it. The Python version should now work. If it does not run, there is likely an issue with the CSV file. Do not hesitate to contact me for help troubleshooting!
 7. (JS only) Upload all files via the gear button (i.e., settings) -> Online -> and adding documents and stimuli to the "Additional resources" list. If you change something in the CSV, you need to reupload it.
 8. (JS only) If you change any code, make the code compile by clicking the yellow square labeled "JS". To test the experiment, set it to pilot mode and click the orange arrow above the "Browser" section of the screen. The project needs to be synced in order to run participants online. For debugging messages, right-click the screen while the experiment is running and click "Inspect". Reload the experiment with ctrl + r to refresh the resources.
-
+9. In order for it to run, you may need to create a Pavlovia account (JS issue)
+    
 Known Issues:
 1. Not everything is in JS
 2. Use of the JS version periodically requires running "netstat -ano | findstr :[value]" and "taskkill /PID [digit] /F" to clear the port. I need to make it so the port is cleared upon termination of the experiment.
@@ -33,3 +34,13 @@ Known Issues:
 Future Plans:
 1. Fix issues
 2. Add more features (suggestions welcome!)
+
+FAQ:
+Q: How much does it cost to use PRESS-B?
+A: For the Python version, it is free to use! However, running experiments online requires credits (about 40 cents per participant) or an institutional Pavlovia license.
+
+Q: What do you need in order to help solve errors?
+A: Any debugging messages and a copy of the CSV file. Most of the time, it is an issue with the CSV file.
+
+Q: Why is there an error message when I load PRESS-B?
+A: In order for the JS version to work, I had to circumvent some PsychoJS structures. These error messages do not prevent reliable data collection.
