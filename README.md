@@ -7,7 +7,7 @@ For questions or concerns, please send me an email at css0121@auburn.edu
 PRESS-B.psyexp is a PsychoPy experiment that can run in both Python and JavaScript for in-person and remote sessions, respectively. Schedules of reinforcement/punishment, stimuli, and other parameters are set within a CSV file that the program reads. When modifying the CSV, aside from ACQ, EXT, Tutorial, and Keyboard_tutorial should not be deleted. They are explicitly set for their respective routines. Routines in the main trial block should be named integers (e.g., '1' rather than 'trial_1'). 
 
 Task Analyses:
-Installing PsychoPy: https://www.psychopy.org/download.html
+Installing PsychoPy: https://www.psychopy.org/download.html; however, make sure it is version 2025.1.1. It will not work for other versions as I had to overwrite the scaffolding for ease of use.
 
 Forking experiments on Pavlovia: https://pavlovia.org/docs/experiments/create-fork 
 
